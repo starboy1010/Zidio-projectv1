@@ -1,5 +1,6 @@
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
+import Dashboard from "./components/Dashboard"; // Import Dashboard
 
 export default function App() {
   return (
@@ -8,8 +9,7 @@ export default function App() {
       <main className="flex-1 bg-gray-100">
         <Header />
         <div className="p-6">
-          <h1 className="text-2xl font-semibold">Dashboard</h1>
-          {/* Add Dashboard components here */}
+          <Dashboard />  {/* Include the Dashboard component */}
         </div>
       </main>
     </div>
